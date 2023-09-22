@@ -6,18 +6,19 @@ Welcome to our modern and user-friendly E-Commerce application built with cuttin
 
 🌟 Key Technologies:
 
-Next.js for server-rendered React applications
-React.js for building dynamic user interfaces
-Tailwind CSS for beautiful, utility-first styling
-Shadcn for creating stunning, interactive product showcases
-🛍️ Features:
+Next.js for server-rendered React applications, 
+React.js for building dynamic user interfaces, 
+Tailwind CSS for beautiful, utility-first styling, 
+Shadcn for creating stunning, interactive product showcases, 
 
-Browse and search through a wide range of products
-Easily add items to your shopping cart
-Secure checkout and payment processing
-User-friendly account management
-Real-time product updates and notifications
-🚀 Join us on this shopping journey as we redefine the online shopping experience. Shop smart, shop with ease, and shop with us! 💻🛒
+## 🛍️ Features:
+
+Browse and search through a wide range of products, 
+Easily add items to your shopping cart, 
+Secure checkout and payment processing, 
+User-friendly account management, 
+Real-time product updates and notifications, 
+🚀 Join us on this shopping journey as we redefine the online shopping experience. Shop smart, shop with ease, and shop with us! 💻🛒 
 
 Feel free to explore our codebase, contribute, or report issues. Let's build the future of online retail together! 👨‍💻👩‍💻🛍️
 
