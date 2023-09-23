@@ -9,13 +9,13 @@ import {
  from "@/components/ui/dropdown-menu";
  import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
- const ProfileButton () => {
+ const ProfileButton = () => {
     return (
         <DropdownMenu>
         <DropdownMenuTrigger>
         <Avatar>
-            <AvatarImage src="/img/shadcn.jpg" />
-            <AvatarFallback> CN </AvatarFallback>
+            <AvatarImage src="/img/human-avatar.jpg" />
+            <AvatarFallback> MI </AvatarFallback>
         </Avatar>
         </DropdownMenuTrigger>
 
@@ -42,4 +42,4 @@ import {
     )
  }
 
- return defaults ProfileButton;
+export default ProfileButton;

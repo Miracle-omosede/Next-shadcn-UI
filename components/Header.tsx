@@ -2,6 +2,7 @@ import Container from './ui/container'
 import Link from 'next/link'
 import { Button } from './ui/button';
 import { Moon, ShoppingCart, Sun } from 'lucide-react'
+import ProfileButton from './ui/Profile-Button';
 
 const routes = [
     {
@@ -64,6 +65,7 @@ const Header = () => {
                             Toggle Theme
                         </span>
                     </Button>
+                <ProfileButton/>
                 </div>
             </div>
         </Container>
