@@ -33,16 +33,16 @@ const Header = () => {
                 <div className='flex items-center'>
                     <Sheet>
                         <SheetTrigger>
-                            <Menu className="h-6 md:hidden w-6" />
+                            <Menu className="h-6 md:hidden w-6" /> 
                         </SheetTrigger>
-                        <SheetContent side="left" className='w-[300px] sm:w-[400px]'>
+                        <SheetContent side="left" className='w-[300px] text-left sm:w-[400px]'>
                         <nav className='flex flex-col items-start text-left w-full'>
                     { routes.map ((route, i) => (
-                        <Button asChild variant="ghost" className='w-full flex items-start text-left'>
+                        <Button asChild variant="ghost" className='w-full flex items-start justify-center text-left'>
                             <Link 
                             key={i}
                             href={ route.href}
-                            className='text-sm font-medium transition-colors'>
+                            className='text-sm text-left font-medium transition-colors'>
                                 {route.label}
                             </Link>
                         </Button>
@@ -70,7 +70,7 @@ const Header = () => {
                 </nav> 
 
                 <div className="flex items-center">
-                    <Button className="mr-2"
+                    <Button className="mr-2 md:block hidden"
                     variant="ghost" size="icon" aria-label="Shopping Cart">
                         <ShoppingCart className="h-4 w-4" />
                         <span className='sr-only'>
@@ -83,7 +83,7 @@ const Header = () => {
                     variant= "ghost"
                     size="icon"
                     aria-label="Toggle Theme"
-                    className='mr-6'
+                    className='mr-6 hidden md:flex'
                     onClick={() => setTheme (theme === "dark" ? "light" : "dark")}>
                         <Sun className='h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0' />
                         <Moon className='absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100'/>
