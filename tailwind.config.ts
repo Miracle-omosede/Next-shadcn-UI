@@ -9,7 +9,7 @@ module.exports = {
 	],
   theme: {
     fontFamily: {
-      'roboto': ['Nunito', 'sans-serif']
+      'poppins': ['Poppins', 'sans-serif']
     },
     container: {
       center: true,

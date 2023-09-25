@@ -70,9 +70,9 @@ const Header = () => {
                 </nav> 
 
                 <div className="flex items-center">
-                    <Button className="mr-2 md:block hidden"
+                    <Button className="mr-2 md:flex hidden"
                     variant="ghost" size="icon" aria-label="Shopping Cart">
-                        <ShoppingCart className="h-4 w-4" />
+                        <ShoppingCart className="h-5 w-5" />
                         <span className='sr-only'>
                             Shopping Cart
                         </span>
@@ -85,8 +85,8 @@ const Header = () => {
                     aria-label="Toggle Theme"
                     className='mr-6 hidden md:flex'
                     onClick={() => setTheme (theme === "dark" ? "light" : "dark")}>
-                        <Sun className='h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0' />
-                        <Moon className='absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100'/>
+                        <Sun className='h-5 w-5 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0' />
+                        <Moon className='absolute h-5 w-5 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100'/>
                         <span className='sr-only'>
                             Toggle Theme
                         </span>
