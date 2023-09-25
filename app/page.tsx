@@ -39,10 +39,16 @@ export default function Home() {
                 <p className='text-lg uppercase font-semibold text-slate-600 flex items-center'>popular picks</p>
               </div>
               <h1 className='uppercase font-bold text-8xl'>Smart HeadSet.</h1>
+              <div className="mt-3 text-md font-medium">
+                  <span className="text-slate-600">Listen to people talk about their favourite product.</span>
+              </div>
               <div className="flex -space-x-2 overflow-hidden">
                 {users.map((user, i) => (
-                  <Image className="inline-block h-12 w-12 my-10 mx-2 rounded-full ring-2 ring-white" src={user.link} alt={user.name} key={i} />
+                  <Image className="inline-block h-12 w-12 mt-5 mb-2 mx-2 rounded-full ring-2 ring-white" src={user.link} alt={user.name} key={i} />
                 ))}
+              </div>
+              <div className="mt-3 text-sm font-medium">
+                <a href="#" className="text-blue-500">+ 198 others</a>
               </div>
             </div>
           </div>
@@ -52,5 +58,5 @@ export default function Home() {
         </div>
       </div>
     </Container>
-  )
+  );
 }
