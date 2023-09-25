@@ -51,7 +51,7 @@ const Header = () => {
                         </SheetContent>
                     </Sheet>
                     <Link href="/" >
-                        <h1 className='text-xl font-bold uppercase'>
+                        <h1 className='text-xl font-bold uppercase mx-3'>
                             store name
                         </h1>
                     </Link>
