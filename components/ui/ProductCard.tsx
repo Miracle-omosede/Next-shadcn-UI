@@ -17,7 +17,7 @@ const ProductCard: React.FC<ProductCard> = ({
             <Card className="rounded-lg border-2">
                 <CardContent className="pt-4">
                     <div className="aspact-square relative bg-foreground/5 dark:bg-background rounded-lg">
-                        <Image src={data.image?.[0]} alt="" fill className="aspect-square object-cover rounded-lg transition-all duration-300 hover:scale-105"/>
+                        <Image src={data.images?.[0]} alt="" fill className="aspect-square object-cover rounded-lg transition-all duration-300 hover:scale-105"/>
                     </div>
                 </CardContent>
                 <CardFooter className="flex-col items-start">
