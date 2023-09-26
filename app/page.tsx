@@ -39,7 +39,7 @@ export default function Home() {
       category: "Earphone",
       name: "Bluetooth earphone",
       price: "N3,000",
-      images: ["/img/earphones_a_1.webp"],
+      images: ["../img/earphones_a_1.webp"],
     },
     {
       id: "1",
